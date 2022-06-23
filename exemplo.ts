@@ -39,3 +39,7 @@ let varAluno: Aluno = {
     matricula: 123,
     nome: "João"
 }
+
+//Também podemos criar types
+type MeuTipo = string;
+
