@@ -23,3 +23,6 @@ const varUnderfined: undefined = undefined;
 //Arrays
 const varArrayNumber:number[] = [1, 2, 3]
 const varArrayString:string[] = ["a", "b", "c"]
+
+// e Objetos
+const varObjeto: {x:number, y:number} = {x:1, y:2}
