@@ -46,3 +46,7 @@ type MeuTipo = string;
 //Definir tipos como união de dois ou mais tipos
 let varNumOuStr: number | string = 3;
 varNumOuStr = "x";
+
+//Literais podem ser usados como tipos
+type Alinhamento = "esquerda" | "direita" | "centro";
+let varAlinhamento: Alinhamento = "centro"
