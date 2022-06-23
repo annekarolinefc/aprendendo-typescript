@@ -50,3 +50,14 @@ varNumOuStr = "x";
 //Literais podem ser usados como tipos
 type Alinhamento = "esquerda" | "direita" | "centro";
 let varAlinhamento: Alinhamento = "centro"
+
+//Também podemos usar como interseção
+interface Programador{
+    linguagemFavorita: string
+}
+
+let varAlunoProgramador: Aluno & Programador = {
+    matricula: 123,
+    nome: "João",
+    linguagemFavorita: "TypeScript"
+}
