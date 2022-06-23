@@ -20,4 +20,6 @@ const varBoolean: boolean = false;
 const varString: string = 'react';
 const varUnderfined: undefined = undefined;
 
-
+//Arrays
+const varArrayNumber:number[] = [1, 2, 3]
+const varArrayString:string[] = ["a", "b", "c"]
