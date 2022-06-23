@@ -12,3 +12,12 @@ function soma2(a: number, b: number):number{
 }
 
 //soma2("4"+5); //erro de tipo
+
+
+//Podemos declarar tipos primitivos...
+const varNumber: number = 1;
+const varBoolean: boolean = false;
+const varString: string = 'react';
+const varUnderfined: undefined = undefined;
+
+
