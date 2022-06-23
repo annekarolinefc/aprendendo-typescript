@@ -5,3 +5,10 @@ function soma1(a,b){
 
 //O compilador infere o tipo das variáveis quando possível, caso contrário o tipo é definido implicitamente como 'any'
 const n1 = 4*7/3; //infere como number
+
+//Podemos indicar os tipos explicitamente
+function soma2(a: number, b: number):number{
+    return a+b;
+}
+
+//soma2("4"+5); //erro de tipo
