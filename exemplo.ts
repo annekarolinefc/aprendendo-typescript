@@ -26,3 +26,16 @@ const varArrayString:string[] = ["a", "b", "c"]
 
 // e Objetos
 const varObjeto: {x:number, y:number} = {x:1, y:2}
+
+
+//Com interfaces podemos dar um nome para um tipo
+interface Aluno {
+    matricula: number,
+    nome: string,
+    dataNascimento?:string
+}
+
+let varAluno: Aluno = {
+    matricula: 123,
+    nome: "João"
+}
