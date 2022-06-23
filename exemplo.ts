@@ -43,3 +43,6 @@ let varAluno: Aluno = {
 //Também podemos criar types
 type MeuTipo = string;
 
+//Definir tipos como união de dois ou mais tipos
+let varNumOuStr: number | string = 3;
+varNumOuStr = "x";
