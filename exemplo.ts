@@ -66,3 +66,12 @@ let varAlunoProgramador: Aluno & Programador = {
 type OperadorNumerico = (n1: number, n2: number) => number;
 
 const opDivisao: OperadorNumerico = (n1, n2) => n1/n2;
+
+//Funções podem receber tipos como parâmetros
+function pegaMaior<T>(a:T, b:T): T {
+    if(a>b){
+        return a;
+    } else{
+        return b;
+    }
+}
