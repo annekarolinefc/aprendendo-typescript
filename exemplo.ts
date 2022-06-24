@@ -61,3 +61,8 @@ let varAlunoProgramador: Aluno & Programador = {
     nome: "João",
     linguagemFavorita: "TypeScript"
 }
+
+//Definir tipo para funções
+type OperadorNumerico = (n1: number, n2: number) => number;
+
+const opDivisao: OperadorNumerico = (n1, n2) => n1/n2;
