@@ -11,3 +11,16 @@ export interface IEvents {
     desc: string;
     calendarId: number;
 }
+
+//FUNÇÕES PARA FAZER CHAMADAS AO BACKEND
+export function getCalendarsEndpoint(): Promise<ICalendar[]> {
+    fetch("http://localhost:9090/calendars").then(resp =>{
+        return resp.json(); //retorno da promisse
+    });
+}
+
+export function getEventsEndpoint(): Promise<IEvents[]> {
+    fetch("http://localhost:9090/calendars").then(resp =>{
+        return resp.json(); //retorno da promisse
+    });
+}
