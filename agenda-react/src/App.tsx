@@ -1,5 +1,13 @@
-import { getEventsEndpoint } from "./backend";
+import { Button } from '@material-ui/core';
 
+function App() {
+  return <Button color="primary" variant="contained"> Olá Mundo</Button>;
+}
+export default App;
+
+/*
+//import { getEventsEndpoint } from "./backend";
+import Button from '@mui/material/Button';
 
 function App() {
   /*
@@ -8,12 +16,15 @@ function App() {
       console.log(event);
     }
   })
-*/
-  return (
-    <div>
-      Olá
-    </div>
-  );
-}
 
+return (
+  <div>
+    <p>Olá</p>
+    <Button variant="contained"> Olá Mundo</Button>
+  </div>
+);
+}
 export default App;
+
+*/
+
